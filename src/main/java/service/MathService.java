@@ -12,6 +12,6 @@ public class MathService {
     }
 
     public int restar(int a, int b) {
-        return a - b;
+        return a * b;
     }
 }
