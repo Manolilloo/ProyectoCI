@@ -20,4 +20,10 @@ class MathServiceTest {
         assertEquals(12, result);
     }
 
+    @Test
+    void restar() {
+        int result = mathService.restar(10, 2);
+        assertEquals(8, result);
+    }
+
 }
